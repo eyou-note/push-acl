@@ -1,0 +1,23 @@
+{
+    "name": "kafka_consumer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rm -rf ./dist && tsc -p tsconfig.json",
+        "start": "node ./dist/index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "kafkajs": "^2.2.4",
+        "typescript": "^5.0.4",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.2.3"
+    }
+}
